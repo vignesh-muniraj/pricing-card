@@ -1,0 +1,74 @@
+.con{
+    display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  height: 600px;
+  width: 900px;
+  margin-left: 18%;
+  margin-top: 5%;
+  background-color: #f2f2fe;
+  text-align: center;
+}
+.box1{
+    height: 400px;
+    width: 250px;
+    border: 2px solid black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right: none;
+    box-shadow: 2px 7px rgba(0, 0, 0, 0.692);
+}
+.box2{
+    height: 450px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom right, rgba(65, 68, 219, 0.486), rgb(78, 55, 203));
+}
+.box3{
+    height: 400px;
+    width: 250px;
+    border: 2px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left: none;;
+    box-shadow: 0px 7px rgba(0, 0, 0, 0.692);
+}
+.b2{
+    align-items: center;
+    justify-content: center;
+}
+.bor{
+    border-bottom: 2px solid white;
+    width: 75%;
+   left:10%;
+   position: relative;
+}
+.bor1{
+    border-bottom: 2px solid black;
+    width: 75%;
+   left:10%;
+   position: relative;
+}
+button{
+    padding: 10px;
+    margin-top: 20px;
+    width: 150px;
+}
+.button1{
+    padding: 10px;
+    margin-top: 20px;
+    width: 150px;
+    background-color: rgba(0, 0, 255, 0.422);
+}
+.text1{
+    background-color: black; 
+    font-style: normal; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
